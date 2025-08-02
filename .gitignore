@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit: Machine failure prediction app"
+git branch -M main
+git remote add origin https://github.com/Priyanshu-techp/Machine-failuar-prediction-system.git
+git push -u origin main
