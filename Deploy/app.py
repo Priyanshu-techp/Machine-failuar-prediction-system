@@ -4,7 +4,7 @@ import pandas as pd
 
 model = joblib.load("Deploy/model.pkl")
 
-st.title("Air Quality Failure Prediction App")
+st.title("Machine Failure Prediction app")
 
 type_input = st.selectbox("Type", ["L", "M", "H"])
 udi = st.number_input("UDI")
